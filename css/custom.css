@@ -1,0 +1,428 @@
+.height520 {
+    height: 520px !important;
+    box-shadow: 0 0 50px #799795 !important;
+}
+
+#settingImage {
+    animation-name: a;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a {
+
+    0% {
+        transform: scale(1) rotate(-45deg);
+    }
+
+    10% {
+        transform: rotate(46deg) !important;
+    }
+
+    20% {
+        transform: rotate(47deg) !important;
+    }
+
+    30% {
+        transform: rotate(48deg) !important;
+    }
+
+    40% {
+        transform: rotate(49deg) !important;
+    }
+
+    50% {
+        transform: rotate(50deg) !important;
+    }
+
+    60% {
+        transform: rotate(51deg) !important;
+    }
+
+    70% {
+        transform: rotate(52deg) !important;
+    }
+
+    80% {
+        transform: rotate(53deg) !important;
+    }
+
+    90% {
+        transform: rotate(54deg) !important;
+    }
+
+    100% {
+        transform: rotate(55deg) !important;
+    }
+}
+
+.fFamilyFantacy {
+    font-family: fantasy !important;
+}
+
+.op08 {
+    opacity: 0.8;
+}
+
+.fRight {
+    float: right;
+}
+
+.fLeft {
+    float: left;
+}
+
+.mt40 {
+    margin-top: 40px !important;
+}
+
+.mt-35 {
+    margin-top: 35px !important;
+}
+
+.mt-100 {
+    margin-top: 100px !important;
+}
+
+.w-50px {
+    width: 50px !important;
+}
+
+.displayFlex {
+    display: flex !important;
+}
+
+svg {
+    cursor: pointer;
+}
+
+.commingSoon {
+    background: url(../images/comming.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainTitile {
+    font-family: fantasy !important;
+    text-align: center;
+    margin-top: 48px;
+    box-shadow: 0px 0px 38px 10px greenyellow;
+    border-radius: 11px;
+    border: 2px solid;
+}
+
+.card-title {
+    /* font-family: monospace !important; */
+    font-size: 25px !important;
+}
+
+.card-text {
+    font-size: 18px !important;
+    font-family: monospace !important;
+}
+
+.card img {
+    height: 250px;
+}
+
+svg {
+    margin-right: 15px;
+}
+
+.playButton:hover {
+    background-color: orange !important;
+    color: black !important;
+}
+
+/* tic tac toe */
+.ticTable {
+    width: 50% !important;
+    margin: 0% 25% 0% 25%;
+}
+
+.ticTr {
+    text-align: center !important;
+    font-size: 50px !important;
+}
+
+.borderT {
+    border-top: 3px solid #8c8ceb !important;
+}
+
+.borderB {
+    border-bottom: 3px solid #8c8ceb !important;
+}
+
+.borderR {
+    border-right: 3px solid #8c8ceb !important;
+}
+
+.borderL {
+    border-left: 3px solid #8c8ceb !important;
+}
+
+.playerText {
+    font-weight: bold !important;
+    font-size: 20px !important;
+}
+
+.ticTr td {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+.ticTr td:hover {
+    background-color: #d6efff;
+}
+
+.cLB {
+    color: #52a6fd;
+}
+
+.playButton {
+    position: absolute !important;
+    bottom: 13px !important;
+}
+
+/* time */
+#currentTime {
+    font-family: monospace !important;
+    font-size: 100px !important;
+    display: inline !important;
+    border: 18px solid black !important;
+    padding: 20px !important;
+    border-radius: 20px !important;
+}
+
+/* Calculator body */
+#calculatorTable {
+    width: 70% !important;
+    margin: 0% 15% 0% 15% !important;
+}
+
+#calculateAns {
+    width: 70% !important;
+    margin: 0% 15% 0% 15% !important;
+    text-align: right;
+    border: 3px solid;
+    padding: 6px;
+}
+
+#calculatorTableBody tr td {
+    border: 3px solid !important;
+    height: 50px !important;
+    width: 50px !important;
+    text-align: center !important;
+    font-size: 40px !important;
+    cursor: pointer;
+}
+
+#calculatorTableBody tr .calculatorNumber:hover {
+    background-color: #d2ccff;
+}
+
+.specialOperation {
+    background-color: #e5e5e5;
+}
+
+.equalOperator {
+    background-color: #cdeef9;
+}
+
+.equalOperator:hover {
+    background-color: lightblue;
+}
+
+.specialOperation:hover {
+    background-color: #d8d1d1;
+}
+
+.blackShadow {
+    box-shadow: 27px 7px 15px black !important;
+}
+
+.bmiBody {
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+}
+
+/* Emi Css */
+.emiinput {
+    border: 0px !important;
+    border-bottom: 2px solid !important;
+    border-radius: 0px !important;
+    position: relative;
+    bottom: 14px;
+}
+
+.emiLabel {
+    font-size: 20px;
+    opacity: 0.6;
+    font-weight: bolder;
+}
+
+.range-value {
+    color: #000;
+    margin: 7px 0 0;
+    opacity: .5;
+    position: relative;
+    text-align: left;
+}
+
+.emiCalculatorBody {
+    padding: 20px;
+}
+
+.amountContainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.piechart {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    /* background-image: conic-gradient(
+        pink 70deg, 
+        lightblue 0 235deg, 
+        orange 0); */
+    background-image: conic-gradient(#ff6666 0deg 187deg, lightblue 188deg);
+}
+
+.emiResultContiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    height: 50vh !important;
+    /* width: 80% !important; */
+}
+
+.pokeCard {
+    border: 2px solid !important;
+    /* box-shadow: 8px 9px 7px 3px black; */
+    box-shadow: 0 0 50px #799795 !important;
+}
+.pokeCard:hover{
+    /* box-shadow: 8px 9px 7px 3px rgb(98, 178, 231); */
+    box-shadow: 0 0 50px #85dad4 !important;
+}
+
+.pokeCard img {
+    height: 330px !important;
+    border-bottom: 2px solid;
+}
+
+.next {
+    cursor: pointer;
+}
+
+/* two option  */
+.first {
+    height: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 30px;
+    background: #19c3d6;
+    box-shadow: inset 0px 0px 0px 0px orange;
+    transition: all 0.5s ease-in-out;
+}
+
+.first:hover {
+    box-shadow: inset 0px -200px 0px 0px orange;
+}
+
+.backButton {
+    height: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 30px;
+    background: rgb(153, 150, 150);
+    box-shadow: inset 0px 0px 0px 0px rgb(224, 221, 221);
+    transition: all 0.5s ease-in-out;
+}
+
+.backButton:hover {
+    box-shadow: inset 0px -200px 0px 0px rgb(194, 190, 190);
+}
+.startButton{
+    height: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 30px;
+    background: lightgreen;
+    box-shadow: inset 0px 0px 0px 0px yellowgreen;
+    transition: all 0.5s ease-in-out;
+}
+.startButton:hover {
+    box-shadow: inset 0px -200px 0px 0px rgb(54, 172, 54);
+}
+
+.heartIcon {
+    height: 30px;
+    margin-top: 8px;
+}
+
+.highScore {
+    font-family: monospace !important;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #c9ffbc;
+    color: #1af700;
+    text-shadow: 2px 2px 3px #0b0016, 0 0 6px #00890b, 0 0 12px #000000, 0 0 22px #0081ef;
+}
+
+#topUpButton {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: rgb(75, 129, 245);
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 0px 10px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 53px;
+    /* Increase font size */
+}
+
+/* --------------------- */
+
+
+@media only screen and (max-width: 800px) {
+    #currentTime {
+        font-size: 32px !important;
+    }
+
+    .topSvg {
+        height: 50px;
+        width: 50px;
+    }
+
+    .heartIcon {
+        margin-top: 0px;
+    }
+}
