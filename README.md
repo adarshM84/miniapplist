@@ -8,3 +8,4 @@ Welcome to the **Mini App List** repository! 🎉 This project showcases a colle
 - **Guess the Pokémon** 🐾: Challenge yourself to identify Pokémon based on hints.
 
 Dive in and explore these mini apps, perfect for quick calculations, games, and more! Feel free to contribute or suggest new ideas. 🌟🚀
+https://miniapplist.rf.gd/
