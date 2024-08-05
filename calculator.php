@@ -40,7 +40,7 @@ require_once 'header.php';
                 </tr>
                 <tr>
                     <td class="calculatorNumber" onclick="addInFrontOfNumber()">+/-</td>
-                    <td>0</td>
+                    <td class="calculatorNumber" onclick="addIntoNumber(this.innerHTML)">0</td>
                     <td class="calculatorNumber" onclick="addIntoNumber(this.innerHTML)">.</td>
                     <td class="equalOperator" onclick="calculateAns()">=</td>
                 </tr>

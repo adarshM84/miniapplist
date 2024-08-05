@@ -4,6 +4,7 @@ require_once 'header.php';
 <!-- Note that by  we are present inside body with div class container since we include header and footer -->
 <div class="mt-5">
     <h3 id="gameTitle">Pokeworld</h3>
+    <p>Fore more feature visit <a href="https://mypokeworld.netlify.app/" target="_blank">here</a></p>
     <div class="row justify-content-center mt-4">
         <h2 class="text-center mb-3 mt-3" id="chooseTitle"><u><i>Choose Game</i></u></h1>
             <div class="col-md-3 mt-3 text-center" id="backOption" hidden>
@@ -13,8 +14,8 @@ require_once 'header.php';
                     </svg>Back
                 </button>
             </div>
-            <div class="col-md-3 mt-3 text-center" id="oneOption"><button class="first" onclick="gameType('info')">Pokemon Info</button></div>
-            <div class="col-md-3 mt-3 text-center" id="twoOption"><button class="first" onclick="gameType('guess')">Guess The Pokemon</button></div>
+            <div class="col-md-4 mt-3 text-center" id="oneOption"><button class="first" onclick="gameType('info')">Pokemon Info</button></div>
+            <div class="col-md-4 mt-3 text-center" id="twoOption"><button class="first" onclick="gameType('guess')">Guess The Pokemon</button></div>
     </div>
     <!-- guess level -->
     <div id="gameLevelDiv" hidden>
@@ -70,8 +71,8 @@ require_once 'header.php';
                 <!-- card body -->
                 <div class="card-body">
                     <div id="contentName" class="row justify-content-center" hidden></div>
-                    <h2 class="text-success text-center mt-3 text-nowrap" id="winMessage" hidden>You Guessed It !!!<span class="text-warning mx-4 next" onclick="playAgainGuess('continue')">Next >></span></h2>
-                    <h2 class="text-danger text-center mt-3" id="tryMessage" hidden>Try again.</h2>
+                    <h5 class="text-success text-center mt-3 text-nowrap" id="winMessage" hidden>You Guessed It !!!<span class="text-warning mx-4 next" onclick="playAgainGuess('continue')">Next >></span></h5>
+                    <h5 class="text-danger text-center mt-3" id="tryMessage" hidden>Try again.</h5>
                     <h5 class="card-title" id="pokeMessage">Loading Please Wait...</h5>
                     <div id="learnMore" hidden>
                         <a href="commingsoon.php" class="btn btn-primary playButton">
@@ -85,7 +86,7 @@ require_once 'header.php';
         </div>
     </div>
     <div class="row justify-content-center" id="pokemonInfoLevel" hidden>
-        <div class="col-md-3 mt-5 mb-5">
+        <div class="col-md-4 mt-5 mb-5">
             <ul class="nav nav-pills mb-4 w-100" id="pillNav" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="home-tab" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" onclick="loaddPokemonInfo('EASY')">Easy</button>

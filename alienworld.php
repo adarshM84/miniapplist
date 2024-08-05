@@ -14,8 +14,8 @@ require_once 'header.php';
                     </svg>Back
                 </button>
             </div>
-            <div class="col-md-3 mt-3 text-center" id="oneOption"><button class="first" onclick="gameType('info')">Alien Info</button></div>
-            <div class="col-md-3 mt-3 text-center" id="twoOption"><button class="first" onclick="gameType('guess')">Guess The Aliens</button></div>
+            <div class="col-md-4 mt-3 text-center" id="oneOption"><button class="first" onclick="gameType('info')">Alien Info</button></div>
+            <div class="col-md-4 mt-3 text-center" id="twoOption"><button class="first" onclick="gameType('guess')">Guess The Aliens</button></div>
     </div>
     <div class="row mb-5 justify-content-center" id="gussGame" hidden>
 

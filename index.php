@@ -37,13 +37,6 @@ require_once 'header.php';
             </div>
         </div>
         <div class="carousel-item text-center" data-bs-interval="2500">
-            <img src="images/weather.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Weather</h5>
-                <p>Calculators can do only addition, subtraction, multiplication and division mathematical calculations.</p>
-            </div>
-        </div>
-        <div class="carousel-item text-center" data-bs-interval="2500">
             <img src="images/bmi2.png" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>BMI Calculater</h5>
